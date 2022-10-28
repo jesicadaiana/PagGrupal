@@ -1,0 +1,75 @@
+body {
+    background:#ffffff;
+    margin:0;
+    font-family: 'Patrick Hand', cursive;
+    display: block;
+}
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.barra {
+    background-color: aqua;
+}
+
+.barra-nav {
+    position: absolute;
+    top: 5px;
+    right: 0;
+}
+
+.barra-nav li {
+    display: inline;
+    margin: 0 0 0 15px;
+    text-transform: capitalize;
+    color: black;
+    font-size: 20px;
+}
+
+.barra-nav li:hover {
+    font-size: 25px;
+    transition: 9seg;
+}
+
+.tituloPrincipal {
+    text-align: center;
+}
+
+.tituloSecundario {
+    text-align: center;
+}
+
+.imagen-flex {
+    display: flex;
+    margin-left: 90px;
+    margin-right: 90px;
+}
+
+.imagen-item {
+    height: 250px;
+    width: 250px;
+    border: 2px solid black;
+    margin: 90px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+}
+
+.imagen-item:hover {
+    width: 300px;
+    height: 300px;
+}
+
+.footer-copyright {
+    background-color: #52527a;
+    color: #ffffff;
+    padding: 15px;
+    margin-top: 30px;
+    text-transform: capitalize;
+}
+
+.footer-copyright p {
+    margin-bottom: 0px;
+}

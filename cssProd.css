@@ -1,0 +1,173 @@
+* {
+    margin: 0;
+}
+body{
+    background-color: rgb(225, 242, 243);
+}
+
+.barra {
+    background-color: aqua;
+}
+
+.barra-nav {
+    position: absolute;
+    top: 5px;
+    right: 0;
+}
+
+.barra-nav li {
+    display: inline;
+    margin: 0 0 0 15px;
+    text-transform: capitalize;
+    color: black;
+    font-size: 20px;
+}
+
+.barra-nav li:hover {
+    font-size: 25px;
+    transition: 9seg;
+}
+
+
+
+ul {
+    list-style: none;
+}
+
+#TitPcpal{
+    background-color: rgb(152, 200, 45);
+    font-size: 30px;
+    padding: 35px;
+    text-align: center;
+    font-family: 'Lora', serif;
+    height: 20px;
+}
+
+.cajaProd {
+    margin: 10px, 30px;
+    display: flex;
+    justify-content: center;
+}
+
+.infoProd {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.tazaCeram {
+/*     display: flex;
+    flex-direction: column;
+    justify-content: space-between; */
+    margin: 30px;
+    border-color: black; 
+    border-style: solid;  
+    border-width: 3px;
+    width: 200px;
+    height: 400px;
+    background-color: white;
+}
+.tazaCeram img {
+    height: 197px;
+}
+.tazaCeram:hover {
+    -webkit-transform:scale(1.1);
+    transform:scale(1.1);
+}
+.tazaCeram{    
+    overflow:hidden;
+}
+
+.mateChico {
+    margin: 30px;
+    border-color: black; 
+    border-style: solid;  
+    border-width: 3px;
+    width: 200px;
+    height: 400px;
+    background-color: white;
+}
+.mateChico img {
+    width: 197px;
+}
+.mateChico:hover {
+    -webkit-transform:scale(1.1);
+    transform:scale(1.1);
+}
+.mateChico {    
+    overflow:hidden;
+}
+
+.chopCeram { 
+    margin: 30px;
+    border-color: black; 
+    border-style: solid;  
+    border-width: 3px;
+    width: 200px;
+    height: 400px;
+    background-color: white;
+}
+.chopCeram img {
+    height: 197px;
+}
+.chopCeram:hover{
+    -webkit-transform:scale(1.1);
+    transform:scale(1.1);
+}
+.chopCeram {    
+    overflow:hidden;
+}
+
+.TitList {
+    font-size: 20px;
+    margin-top: 30px;
+    margin-left: 5px;
+    margin-right: 5px;
+    text-align: center;
+}
+
+.parrList1 {
+    text-align: center;
+    margin: 10px, 0px, 10px,10px;
+}
+
+
+.precios {
+    text-align: center;
+    margin-bottom: 0px;
+}
+
+.redesSoc {
+    display: flex;
+    justify-content: center;
+}
+
+.Faceb {
+    height: 40px;
+    margin-left: 30px;
+    margin-right: 30px;
+}
+.Faceb:hover{
+    -webkit-transform:scale(1.5);
+    transform:scale(1.5);
+}
+
+.ImgInsta {
+    height: 40px;
+    margin-left: 30px;
+    margin-right: 30px;
+}
+.ImgInsta:hover{
+    -webkit-transform:scale(1.5);
+    transform:scale(1.5);
+}
+
+.ImgWh {
+    height: 40px;
+    margin-left: 30px;
+    margin-right: 30px;
+}.ImgWh:hover{
+    -webkit-transform:scale(1.5);
+    transform:scale(1.5);
+}
+
